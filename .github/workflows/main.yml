@@ -12,7 +12,7 @@ jobs:
         id: PIC18F4550
         with:
           auth: ${{ secrets.GIST_TOKEN }}
-          gist_url: https://gist.github.com/microside-mx/731ec1a020ea42b1639c791412d66b73
+          gist_url: https://gist.github.com/microside-mx/f83585c7c0ed386a862babe8985047d8
           gist_title: Práctica-21 Comunicación UART 4550-MikroC.c
           gist_description: Prácticas MikroC Pro for PIC
           github_file: Proyecto/Comunicacion_UART/4550/SERIAL.c
@@ -24,7 +24,7 @@ jobs:
         id: PIC18F45K50
         with:
           auth: ${{ secrets.GIST_TOKEN }}
-          gist_url: https://gist.github.com/microside-mx/257c5e10997fd509cbe733dca1b87488
+          gist_url: https://gist.github.com/microside-mx/7d0c2b614f231d4395f98e5cf9f915b3
           gist_title: Práctica-21 Comunicación UART 45K50-MikroC.c
           gist_description: Prácticas MikroC Pro for PIC
           github_file: Proyecto/Comunicacion_UART/45K50/SERIAL.c
