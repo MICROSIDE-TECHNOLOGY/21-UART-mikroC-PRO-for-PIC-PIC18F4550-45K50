@@ -13,7 +13,7 @@ jobs:
         with:
           auth: ${{ secrets.GIST_TOKEN }}
           gist_url: https://gist.github.com/microside-mx/731ec1a020ea42b1639c791412d66b73
-          gist_title: Práctica-22 Comunicación UART 4550-MikroC.c
+          gist_title: Práctica-21 Comunicación UART 4550-MikroC.c
           gist_description: Prácticas MikroC Pro for PIC
           github_file: Proyecto/Comunicacion_UART/4550/SERIAL.c
           file_encoding: WINDOWS-1252
@@ -25,7 +25,7 @@ jobs:
         with:
           auth: ${{ secrets.GIST_TOKEN }}
           gist_url: https://gist.github.com/microside-mx/257c5e10997fd509cbe733dca1b87488
-          gist_title: Práctica-22 Comunicación UART 45K50-MikroC.c
+          gist_title: Práctica-21 Comunicación UART 45K50-MikroC.c
           gist_description: Prácticas MikroC Pro for PIC
           github_file: Proyecto/Comunicacion_UART/45K50/SERIAL.c
           file_encoding: WINDOWS-1252
