@@ -19,9 +19,9 @@ Para usar el código con bootloader, configurar como lo indica MICROSIDE:
 #pragma orgall 0x1FFF                //Espacio reservado para bootloader
 #define LED_ON       LATA4_bit = 1   //Se declara una definición donde se asigna el pin de salida y el estado lógico
 #define LED_OFF      LATA4_bit = 0   //Se declara una definición donde se asigna el pin de salida y el estado lógico
-#define BOTON PORTA.f2               //Se declara una definición que contine la funcion que determian el estado de una estrada digital
+#define BOTON PORTA.f2               //Se declara una definición que contine la funcion que determian el estado de una entrada digital
 
-void main() org 0x2000               //Se define el registro a partir del cual se alamcenara el codigo lógico
+void main() org 0x2000               //Se define el registro a partir del cual se alamcenará el codigo lógico
 {
   TRISB = 0x00;                      //Puerto B como salida
   LATA4_bit = 0;                     //Pin A4 en estado bajo
